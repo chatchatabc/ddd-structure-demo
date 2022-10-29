@@ -26,6 +26,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 # References
 
 * jMolecules: https://github.com/xmolecules/jmolecules
+* Architecturally evident Java applications with jMolecules: https://www.youtube.com/watch?v=IzLHmPNmLLw
 * Hexagonal architecture: https://alistair.cockburn.us/hexagonal-architecture/
 * Spring Modulith: https://spring.io/projects/spring-modulith
 * Cargo Tracker: https://eclipse-ee4j.github.io/cargotracker/
