@@ -17,7 +17,27 @@ public class CargoEvent {
     private String type;
     private Cargo cargo;
 
-    public CargoEvent(String type, Cargo cargo) {
+    public CargoEvent() {
+    }
 
+    public CargoEvent(String type, Cargo cargo) {
+        this.type = type;
+        this.cargo = cargo;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Cargo getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(Cargo cargo) {
+        this.cargo = cargo;
     }
 }
