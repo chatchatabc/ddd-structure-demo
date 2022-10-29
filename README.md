@@ -18,6 +18,11 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * DDD application layer with Hexagonal architecture
 * Event firing/listener with Spring Events
 
+# Requirements
+
+* Java 17
+* Apache Maven 3.5+
+
 # References
 
 * jMolecules: https://github.com/xmolecules/jmolecules
