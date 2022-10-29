@@ -1,0 +1,3 @@
+### find Cargo by id
+#@name cargo-1
+GET http://localhost:8080/cargo/1
