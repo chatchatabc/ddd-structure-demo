@@ -10,7 +10,7 @@ import org.jmolecules.event.annotation.DomainEvent;
  */
 @DomainEvent
 public class CargoEvent {
-    public static String placed_type = "placed";
+    public static String PLACED_TYPE = "placed";
     public static String SHIPPED_TYPE = "created";
     public static String ARRIVED_TYPE = "blocked";
 
