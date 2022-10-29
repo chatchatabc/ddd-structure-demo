@@ -16,6 +16,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * Project directory/package structure
 * Annotations with jMolecules
 * DDD application layer with Hexagonal architecture
+* Event firing/listener with Spring Events
 
 # References
 
