@@ -15,7 +15,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 * Project directory/package structure
 * Annotations with jMolecules
-* DDD application layer with Hexagonal
+* DDD application layer with Hexagonal architecture
 
 # References
 
@@ -25,3 +25,4 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * jMolecules with Spring Data: https://spring.io/blog/2021/04/20/what-s-new-in-spring-data-2021-0#jmolecules
 * Architecturally evident Java applications with jMolecules: https://www.youtube.com/watch?v=IzLHmPNmLLw
 * Hexagonal (Ports & Adapters) Architecture: https://medium.com/idealo-tech-blog/hexagonal-ports-adapters-architecture-e3617bcf00a0
+* Spring Events: https://www.baeldung.com/spring-events
