@@ -9,4 +9,6 @@ import java.util.Optional;
  */
 public interface CargoSpec {
     Optional<Long> isEmailUnique(String email);
+
+     boolean isTrackingNumberUnique(String trackingNum);
 }
