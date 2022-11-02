@@ -14,4 +14,8 @@ public class CargoSpecImpl implements CargoSpec {
     public Optional<Long> isEmailUnique(String email) {
         return Optional.empty();
     }
+
+    public boolean isTrackingNumberUnique(String trackingNum) {
+        return false;
+    }
 }
