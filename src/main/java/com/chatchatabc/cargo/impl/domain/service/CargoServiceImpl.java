@@ -18,10 +18,8 @@ public class CargoServiceImpl implements CargoService {
 
     @Override
     public Long createCargo(@NotNull Cargo cargo) {
-        Long id = 1L;
-        cargo.setId(id);
-        cargoRepository.insertCargo(cargo);
+        final Long cargoId = cargoRepository.insertCargo(cargo);
         eventPublisher.publishEvent(new CargoEvent(CargoEvent.PLACED_TYPE, cargo));
-        return id;
+        return cargoId;
     }
 }
