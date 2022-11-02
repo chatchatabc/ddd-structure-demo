@@ -19,4 +19,9 @@ public class CargoRepositoryImpl implements CargoRepository {
         cargo.setStatus(0);
         return cargo;
     }
+
+    @Override
+    public Long insertCargo(Cargo cargo) {
+        return 1L;
+    }
 }

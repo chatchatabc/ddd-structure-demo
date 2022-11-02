@@ -8,4 +8,7 @@ import org.jmolecules.ddd.annotation.Repository;
 public interface CargoRepository {
     @Nullable
     Cargo findCargoById(Long id);
+
+    Long insertCargo(Cargo cargo);
+
 }
