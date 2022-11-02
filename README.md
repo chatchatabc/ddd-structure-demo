@@ -6,6 +6,10 @@ A project shows standard structure of Domain Driven Design project with Spring B
 # Domain Driven Design Architecture
 
 ![Domain Driven Design](src/site/images/ddd-landscape.png)
+       
+# Domain Driven Design Layers
+
+![DDD Layers](src/site/images/ddd-layers.png)
 
 # Hexagonal (Ports & Adapters) Architecture with DDD
 
