@@ -11,6 +11,7 @@ import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
  *
  * @author linux_china
  */
+@SuppressWarnings("unused")
 @AnalyzeClasses(packages = ArchitectureTest.BASE_PACKAGE)
 public class ArchitectureTest {
     public static final String BASE_PACKAGE = "com.chatchatabc.cargo";
