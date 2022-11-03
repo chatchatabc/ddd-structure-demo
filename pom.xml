@@ -16,7 +16,7 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <jmolecules-bom.version>2022.2.1</jmolecules-bom.version>
+        <jmolecules-bom.version>2022.2.2</jmolecules-bom.version>
         <spring-boot.version>2.7.5</spring-boot.version>
     </properties>
 
