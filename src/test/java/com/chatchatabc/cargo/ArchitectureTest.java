@@ -20,4 +20,9 @@ public class ArchitectureTest {
     static final ArchRule domain_layer_should_not_depend_on_application_and_infra_layers =
             noClasses().that().resideInAPackage(BASE_PACKAGE + ".domain..")
                     .should().dependOnClassesThat().resideInAnyPackage(BASE_PACKAGE + ".application..", BASE_PACKAGE + ".infra..");
+    @ArchTest
+    static final ArchRule infra_layer_should_not_depend_on_application_layer =
+            noClasses().that().resideInAPackage(BASE_PACKAGE + ".infra..")
+                    .should().dependOnClassesThat().resideInAnyPackage(BASE_PACKAGE + ".application..");
+
 }
