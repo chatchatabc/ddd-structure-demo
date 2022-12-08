@@ -18,7 +18,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 # CQRS(Command Query Responsibility Separation) Pattern
 
 ![CQRS Pattern](src/site/images/cqrs-pattern.png)
-     
+
 # Reactive DDD - communication between bounded contexts
 
 ![Reactive DDD](src/site/images/reactive-ddd.png)
@@ -31,6 +31,8 @@ A project shows standard structure of Domain Driven Design project with Spring B
 # Features
 
 * Project directory/package structure
+* Validation with specification
+* Exception with error package
 * Annotations with jMolecules
 * DDD application layer with Hexagonal architecture
 * Event firing/listener with Spring Events
@@ -40,7 +42,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 * Java 17
 * Apache Maven 3.5+
-           
+
 # Tips
 
 * DTO(Data Transfer Object): please use record instead of class - https://blog.sebastian-daschner.com/entries/java-records
