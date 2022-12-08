@@ -1,3 +1,7 @@
 ### find Cargo by id
 #@name cargo-1
 GET http://localhost:8080/cargo/1
+
+### Cargo not found problem detail
+#@name cargo-0
+GET http://localhost:8080/cargo/0
