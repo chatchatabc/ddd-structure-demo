@@ -32,7 +32,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 * Project directory/package structure
 * Validation with specification
-* Exception with error package
+* Exception with error package: Spring 6 ProblemDetail integration
 * Annotations with jMolecules
 * DDD application layer with Hexagonal architecture
 * Event firing/listener with Spring Events
