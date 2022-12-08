@@ -9,13 +9,13 @@ public class CargoNotFoundException extends Exception {
     private Long id;
     private String trackingId;
 
-    public CargoNotFoundException byId(Long id) {
+    public static CargoNotFoundException byId(Long id) {
         CargoNotFoundException e = new CargoNotFoundException();
         e.id = id;
         return e;
     }
 
-    public CargoNotFoundException byTrackingId(String trackingId) {
+    public static CargoNotFoundException byTrackingId(String trackingId) {
         CargoNotFoundException e = new CargoNotFoundException();
         e.trackingId = trackingId;
         return e;
