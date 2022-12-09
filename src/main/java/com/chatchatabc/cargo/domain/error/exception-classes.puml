@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Exception
+class IOException
+
+Exception <|-- IOException
+Exception <|-- CargoNotFoundException
+
+@enduml
