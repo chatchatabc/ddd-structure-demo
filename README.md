@@ -46,6 +46,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 # Tips
 
 * DTO(Data Transfer Object): please use record instead of class - https://blog.sebastian-daschner.com/entries/java-records
+* Please consider Observability into your architecture: Logging, Metrics, Tracing, Events.
 
 # References
 
