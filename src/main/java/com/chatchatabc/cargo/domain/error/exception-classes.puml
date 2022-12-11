@@ -1,10 +1,12 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-class Exception
-class IOException
+class RuntimeException <<Unchecked>> #green
 
 Exception <|-- IOException
+Exception <|-- RuntimeException
+
+RuntimeException <|-- ValidationException
 Exception <|-- CargoNotFoundException
 IOException <|-- DatabaseConnectException
 
