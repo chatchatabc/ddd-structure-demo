@@ -15,7 +15,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![Hexagonal Architecture with DDD](src/site/images/hexagon-ddd.png)
 
-![Hexagon with DDD](src/site/images/hexagon-ddd.png)
+![Hexagon with Application and Infrastructure](src/site/images/hexagon-application-infra.png)
 
 # CQRS(Command Query Responsibility Separation) Pattern
 
