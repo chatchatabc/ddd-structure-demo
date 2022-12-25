@@ -15,6 +15,8 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![Hexagonal Architecture with DDD](src/site/images/hexagon-ddd.png)
 
+![Hexagon with DDD](src/site/images/hexagon-ddd.png)
+
 # CQRS(Command Query Responsibility Separation) Pattern
 
 ![CQRS Pattern](src/site/images/cqrs-pattern.png)
@@ -27,6 +29,13 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * Message Driven & Back Pressure
 * Reactive(RSocket) protocols: Request/Response, Request/Stream, Fire & Forget, Channel
 * Reactive Stream Frameworks: Reactor(Mono,Flux), RxJava, Akka Streams, Smallrye Mutiny, Kotlin Flow
+ 
+# DDD with CQRS, Hexagonal Architecture, Reactive
+
+* DDD Repository: CQRS
+* DDD Application and Infrastructure Layers: Hexagonal Architecture
+* DDD Event/Communication: Reactive
+* DDD Factory: Design Pattern
 
 # Features
 
@@ -63,3 +72,4 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all
   together: https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
 * Spring Events: https://www.baeldung.com/spring-events
+* Hexagonal Architecture, there are always two sides to every story: https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
