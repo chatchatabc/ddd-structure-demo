@@ -11,6 +11,8 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![DDD Layers](src/site/images/ddd-layers.png)
 
+![Onion Architecture](src/site/images/onion-architecture.png)
+
 # Hexagonal (Ports & Adapters) Architecture with DDD
 
 ![Hexagonal Architecture with DDD](src/site/images/hexagon-ddd.png)
