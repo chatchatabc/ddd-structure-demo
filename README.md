@@ -89,3 +89,4 @@ Please consider to adopt CQRS Pattern for DDD Repository design.
 * Spring Events: https://www.baeldung.com/spring-events
 * Hexagonal Architecture, there are always two sides to every story: https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
 * Understanding Onion Architecture: https://www.codeguru.com/csharp/understanding-onion-architecture/
+* Onion Architecture: https://medium.com/expedia-group-tech/onion-architecture-deed8a554423
