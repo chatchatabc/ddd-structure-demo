@@ -56,10 +56,10 @@ Please consider to adopt CQRS Pattern for DDD Repository design.
 
 * Project directory/package structure
 * Validation with specification
-* Exception with error package: Spring 6 ProblemDetail integration
+* Exception with error package: [Spring 6 ProblemDetail](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ProblemDetail.html) integration
 * Annotations with jMolecules
 * DDD application layer with Hexagonal architecture
-* Event firing/listener with Spring Events
+* Event firing/listener with Spring Events - `ApplicationEventPublisher`, `@EventListener` and `ApplicationListener`.
 * ArchUnit integrated
 
 # Requirements
@@ -90,3 +90,4 @@ Please consider to adopt CQRS Pattern for DDD Repository design.
 * Hexagonal Architecture, there are always two sides to every story: https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
 * Understanding Onion Architecture: https://www.codeguru.com/csharp/understanding-onion-architecture/
 * Onion Architecture: https://medium.com/expedia-group-tech/onion-architecture-deed8a554423
+* Domain-Driven Instead of Technology-Based Project Structure: https://medium.com/@f.s.a.kuzman/domain-driven-instead-of-technology-based-project-structure-db3b34c3fd2d
