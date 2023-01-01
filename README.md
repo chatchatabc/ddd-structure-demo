@@ -7,7 +7,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![Domain Driven Design](src/site/images/ddd-landscape.png)
 
-# Domain Driven Design Layers
+# Domain Driven Design Layers - Onion Architecture
 
 ![DDD Layers](src/site/images/ddd-layers.png)
 
@@ -17,7 +17,7 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![Hexagon with Application and Infrastructure](src/site/images/hexagon-application-infra.png)
 
-# CQRS(Command Query Responsibility Separation) Pattern
+# CQRS(Command Query Responsibility Separation) Pattern - Write and Read Separation
 
 ![CQRS Pattern](src/site/images/cqrs-pattern.png)
 
@@ -73,3 +73,4 @@ A project shows standard structure of Domain Driven Design project with Spring B
   together: https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
 * Spring Events: https://www.baeldung.com/spring-events
 * Hexagonal Architecture, there are always two sides to every story: https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
+* Understanding Onion Architecture: https://www.codeguru.com/csharp/understanding-onion-architecture/
