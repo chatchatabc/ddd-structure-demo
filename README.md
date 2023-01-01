@@ -15,11 +15,23 @@ A project shows standard structure of Domain Driven Design project with Spring B
 
 ![Hexagonal Architecture with DDD](src/site/images/hexagon-ddd.png)
 
-![Hexagon with Application and Infrastructure](src/site/images/hexagon-application-infra.png)
+![Hexagon with Application and Infrastructure](src/site/images/hexagon-application-infra.png
+
+Please consider to adopt Hexagonal Architecture for DDD application layer, example packages as following:
+
+* web package: Web application with templates
+* rest package: HTTP REST API
+* graphql package: GraphQL API
+* grpc package: gRPC API
+* rsocket package: RSocket API
+* facade package: Facade API for other domains
+* common package: Common API for other ports
 
 # CQRS(Command Query Responsibility Separation) Pattern - Write and Read Separation
 
 ![CQRS Pattern](src/site/images/cqrs-pattern.png)
+
+Please consider to adopt CQRS Pattern for DDD Repository design.
 
 # Reactive DDD - communication between bounded contexts
 
@@ -29,7 +41,8 @@ A project shows standard structure of Domain Driven Design project with Spring B
 * Message Driven & Back Pressure
 * Reactive(RSocket) protocols: Request/Response, Request/Stream, Fire & Forget, Channel
 * Reactive Stream Frameworks: Reactor(Mono,Flux), RxJava, Akka Streams, Smallrye Mutiny, Kotlin Flow
- 
+* RSocket prefer
+
 # DDD with CQRS, Hexagonal Architecture, Reactive
 
 * DDD Repository: CQRS
