@@ -44,6 +44,11 @@ Database Scaling Patterns:
 * Scaling for reads: read replication
 * Scaling for writes: sharding
 
+Use cases:
+
+* CMS: Content Management System
+* E-Commerce: Item detail
+
 # Reactive DDD - communication between bounded contexts
 
 ![Reactive DDD](src/site/images/reactive-ddd.png)
