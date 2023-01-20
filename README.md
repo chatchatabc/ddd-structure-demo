@@ -28,12 +28,21 @@ Please consider to adopt Hexagonal Architecture for DDD application layer, examp
 * rsocket package: RSocket API
 * facade package: Facade API for other domains
 * common package: Common API for other ports
+ 
+# Clean Architecture
+
+[Clean Architecture](src/site/images/clean-architecture.png)
 
 # CQRS(Command Query Responsibility Separation) Pattern - Write and Read Separation
 
 ![CQRS Pattern](src/site/images/cqrs-pattern.png)
 
 Please consider to adopt CQRS Pattern for DDD Repository design.
+
+Database Scaling Patterns:
+
+* Scaling for reads: read replication
+* Scaling for writes: sharding
 
 # Reactive DDD - communication between bounded contexts
 
