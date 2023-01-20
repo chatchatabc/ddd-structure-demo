@@ -31,7 +31,7 @@ Please consider to adopt Hexagonal Architecture for DDD application layer, examp
  
 # Clean Architecture
 
-[Clean Architecture](src/site/images/clean-architecture.png)
+![Clean Architecture](src/site/images/clean-architecture.png)
 
 # CQRS(Command Query Responsibility Separation) Pattern - Write and Read Separation
 
