@@ -3,6 +3,12 @@ Template DDD project structure with jMolecules
 
 A project shows standard structure of Domain Driven Design project with Spring Boot.
 
+# Why DDD?
+
+* Business processes is a complex subject
+* Software development is complicated
+* Goal of DDD is to manage complexity
+
 # Domain Driven Design Architecture
 
 ![Domain Driven Design](src/site/images/ddd-landscape.png)
@@ -28,7 +34,7 @@ Please consider to adopt Hexagonal Architecture for DDD application layer, examp
 * rsocket package: RSocket API
 * facade package: Facade API for other domains
 * common package: Common API for other ports
- 
+
 # Clean Architecture
 
 ![Clean Architecture](src/site/images/clean-architecture.png)
@@ -105,3 +111,5 @@ Use cases:
 * Understanding Onion Architecture: https://www.codeguru.com/csharp/understanding-onion-architecture/
 * Onion Architecture: https://medium.com/expedia-group-tech/onion-architecture-deed8a554423
 * Domain-Driven Instead of Technology-Based Project Structure: https://medium.com/@f.s.a.kuzman/domain-driven-instead-of-technology-based-project-structure-db3b34c3fd2d
+* A practical simple introduction to DDD: https://levelup.gitconnected.com/a-practical-simple-introduction-to-ddd-cd4a104c8634
+
