@@ -60,7 +60,7 @@ Use cases:
 Specification design pattern allows us to check whether our objects meet certain requirements.
 Through this design pattern, we can reuse expression specifications and combine those specifications to easily question whether more complex requirements are satisfied or not.
 
-Specification design pattern is very important for DDD to validate domain objects and some requirements from business.
+Specification design pattern is very important for DDD to validate domain objects and some business rules.
 
 # Reactive DDD - communication between bounded contexts
 
