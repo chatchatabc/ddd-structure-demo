@@ -55,6 +55,13 @@ Use cases:
 * CMS: Content Management System
 * E-Commerce: Item detail
 
+# Specification Design Pattern
+
+Specification design pattern allows us to check whether our objects meet certain requirements.
+Through this design pattern, we can reuse expression specifications and combine those specifications to easily question whether more complex requirements are satisfied or not.
+
+Specification design pattern is very important for DDD to validate domain objects and some requirements from business.
+
 # Reactive DDD - communication between bounded contexts
 
 ![Reactive DDD](src/site/images/reactive-ddd.png)
@@ -81,6 +88,7 @@ Use cases:
 * DDD application layer with Hexagonal architecture
 * Event firing/listener with Spring Events - `ApplicationEventPublisher`, `@EventListener` and `ApplicationListener`.
 * ArchUnit integrated
+* Specification Design Pattern
 
 # Requirements
 
@@ -112,4 +120,6 @@ Use cases:
 * Onion Architecture: https://medium.com/expedia-group-tech/onion-architecture-deed8a554423
 * Domain-Driven Instead of Technology-Based Project Structure: https://medium.com/@f.s.a.kuzman/domain-driven-instead-of-technology-based-project-structure-db3b34c3fd2d
 * A practical simple introduction to DDD: https://levelup.gitconnected.com/a-practical-simple-introduction-to-ddd-cd4a104c8634
+* Specification Design Pattern: https://medium.com/c-sharp-progarmming/specification-design-pattern-c814649be0ef
+* Specifications by Eric Evans and Martin Fowler: https://martinfowler.com/apsupp/spec.pdf
 
