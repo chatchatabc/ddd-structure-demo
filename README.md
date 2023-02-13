@@ -101,7 +101,9 @@ Specification design pattern is very important for DDD to validate domain object
 * Please consider Observability into your architecture: Logging, Metrics, Tracing, Events.
 
 # References
-
+          
+* Free Domain-Driven Design Learning Resources: https://github.com/ddd-crew/free-ddd-learning-resources
+* ddd-crew: https://github.com/ddd-crew
 * jMolecules: https://github.com/xmolecules/jmolecules
 * Architecturally evident Java applications with jMolecules: https://www.youtube.com/watch?v=IzLHmPNmLLw
 * Hexagonal architecture: https://alistair.cockburn.us/hexagonal-architecture/
