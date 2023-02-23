@@ -125,4 +125,5 @@ Specification design pattern is very important for DDD to validate domain object
 * Specification Design Pattern: https://medium.com/c-sharp-progarmming/specification-design-pattern-c814649be0ef
 * Specifications by Eric Evans and Martin Fowler: https://martinfowler.com/apsupp/spec.pdf
 * One-Stop Guide to Mapping with MapStruct: https://reflectoring.io/java-mapping-with-mapstruct/
+* The best Spring Data JpaRepository: https://vladmihalcea.com/best-spring-data-jparepository/
 
