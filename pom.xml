@@ -17,14 +17,14 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <jmolecules-bom.version>2022.2.2</jmolecules-bom.version>
-        <spring-boot.version>3.0.2</spring-boot.version>
+        <spring-boot.version>3.0.5</spring-boot.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>24.0.0</version>
+            <version>24.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.jmolecules</groupId>
@@ -50,7 +50,7 @@
         <dependency>
             <groupId>net.datafaker</groupId>
             <artifactId>datafaker</artifactId>
-            <version>1.7.0</version>
+            <version>1.8.1</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.9.1</version>
+                <version>5.9.2</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -107,7 +107,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>3.11.0</version>
                 <configuration>
                     <parameters>true</parameters>
                 </configuration>
