@@ -1,4 +1,4 @@
-Template DDD project structure with jMolecules
+Template DDD project structure
 ==============================================
 
 A project shows standard structure of Domain Driven Design project with Spring Boot.
