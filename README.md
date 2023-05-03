@@ -126,4 +126,5 @@ Specification design pattern is very important for DDD to validate domain object
 * Specifications by Eric Evans and Martin Fowler: https://martinfowler.com/apsupp/spec.pdf
 * One-Stop Guide to Mapping with MapStruct: https://reflectoring.io/java-mapping-with-mapstruct/
 * The best Spring Data JpaRepository: https://vladmihalcea.com/best-spring-data-jparepository/
+* spring-ddd-bank: a sample project following Domain Driven Design with Spring Data JPA - https://github.com/christophknabe/spring-ddd-bank
 
