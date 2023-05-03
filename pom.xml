@@ -16,8 +16,8 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <jmolecules-bom.version>2022.2.2</jmolecules-bom.version>
-        <spring-boot.version>3.0.5</spring-boot.version>
+        <jmolecules-bom.version>2022.3.0</jmolecules-bom.version>
+        <spring-boot.version>3.0.6</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>com.tngtech.archunit</groupId>
             <artifactId>archunit-junit5</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.9.2</version>
+                <version>5.9.3</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
