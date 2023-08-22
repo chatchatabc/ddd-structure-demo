@@ -16,8 +16,8 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <jmolecules-bom.version>2022.3.0</jmolecules-bom.version>
-        <spring-boot.version>3.1.1</spring-boot.version>
+        <jmolecules-bom.version>2023.1.0</jmolecules-bom.version>
+        <spring-boot.version>3.1.2</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.jmolecules</groupId>
             <artifactId>jmolecules-hexagonal-architecture</artifactId>
-            <version>1.6.0</version>
+            <version>1.9.0</version>
         </dependency>
         <dependency>
             <groupId>org.jmolecules</groupId>
@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.9.3</version>
+                <version>5.10.0</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
