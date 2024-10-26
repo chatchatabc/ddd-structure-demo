@@ -104,6 +104,7 @@ Specification design pattern is very important for DDD to validate domain object
           
 * Free Domain-Driven Design Learning Resources: https://github.com/ddd-crew/free-ddd-learning-resources
 * ddd-crew: https://github.com/ddd-crew
+* Domain Storytelling: Build Better Business Software by Telling and Visualizing StoriesPermalink - https://domainstorytelling.org/
 * jMolecules: https://github.com/xmolecules/jmolecules
 * Architecturally evident Java applications with jMolecules: https://www.youtube.com/watch?v=IzLHmPNmLLw
 * Hexagonal architecture: https://alistair.cockburn.us/hexagonal-architecture/
