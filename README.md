@@ -2,7 +2,7 @@ Template DDD project structure
 ==============================================
 
 A project shows standard structure of Domain Driven Design project with Spring Boot.
-
+         
 # Why DDD?
 
 * Business processes is a complex subject
@@ -129,4 +129,5 @@ Specification design pattern is very important for DDD to validate domain object
 * The best Spring Data JpaRepository: https://vladmihalcea.com/best-spring-data-jparepository/
 * spring-ddd-bank: a sample project following Domain Driven Design with Spring Data JPA - https://github.com/christophknabe/spring-ddd-bank
 * Domain-Driven Design: Manage Data With Jakarta Data and JNoSQL - https://dzone.com/articles/enhancing-domain-driven-design-with-jakarta-data-a
+* Contextive: a suite of tools to immerse developers in the language of their users' domains https://github.com/dev-cycles/contextive
 
