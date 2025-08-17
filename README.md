@@ -131,4 +131,7 @@ Specification design pattern is very important for DDD to validate domain object
 * Domain-Driven Design: Manage Data With Jakarta Data and JNoSQL - https://dzone.com/articles/enhancing-domain-driven-design-with-jakarta-data-a
 * Contextive: a suite of tools to immerse developers in the language of their users' domains https://github.com/dev-cycles/contextive
 * Structuring Ktor Projects Using Domain-Driven Design (DDD) Concepts: A Step-by-Step Guide With a Minimalistic CRM https://blog.jetbrains.com/kotlin/2025/04/domain-driven-design-guide/
+* Domain-Driven Design in Java: A Practical Guide - https://foojay.io/today/domain-driven-design-in-java-a-practical-guide/
+* Spring Modulith with Intellij IDEA 2025.2: https://www.jetbrains.com/idea/whatsnew/#page__content-spring-modulith
+* IntelliJ IDEA 2025.2 and Spring Modulith: https://www.youtube.com/watch?v=fGExm_Rlees
 
