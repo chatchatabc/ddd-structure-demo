@@ -16,8 +16,8 @@
         <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <jmolecules-bom.version>2023.3.1</jmolecules-bom.version>
-        <spring-boot.version>3.4.5</spring-boot.version>
+        <jmolecules-bom.version>2023.3.2</jmolecules-bom.version>
+        <spring-boot.version>3.5.4</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.jmolecules</groupId>
             <artifactId>jmolecules-hexagonal-architecture</artifactId>
-            <version>1.9.0</version>
+            <version>1.10.0</version>
         </dependency>
         <dependency>
             <groupId>org.jmolecules</groupId>
@@ -55,7 +55,7 @@
         <dependency>
             <groupId>net.datafaker</groupId>
             <artifactId>datafaker</artifactId>
-            <version>2.4.3</version>
+            <version>2.4.4</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -86,7 +86,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.12.2</version>
+                <version>5.13.4</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
