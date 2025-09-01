@@ -134,4 +134,5 @@ Specification design pattern is very important for DDD to validate domain object
 * Domain-Driven Design in Java: A Practical Guide - https://foojay.io/today/domain-driven-design-in-java-a-practical-guide/
 * Spring Modulith with Intellij IDEA 2025.2: https://www.jetbrains.com/idea/whatsnew/#page__content-spring-modulith
 * IntelliJ IDEA 2025.2 and Spring Modulith: https://www.youtube.com/watch?v=fGExm_Rlees
+* Hexagonal Architecture With Spring Boot: https://www.arhohuttunen.com/hexagonal-architecture-spring-boot/
 
